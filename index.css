@@ -1,0 +1,21 @@
+/* there are many types of selectors which can be used to classify a set or elements for styling in CSS */
+/* universal selectors */
+* {
+    background-color:cornsilk;
+}
+
+/* typed selectors */
+p {
+    color:blue;
+    background-color:pink;
+}
+
+/* class selectors */
+.heading {
+    font-family:verdana;
+}
+
+/* id selectors */
+#pickme {
+    color:violet;
+}

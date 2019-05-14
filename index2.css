@@ -1,0 +1,39 @@
+/* Specificity/Priority is defined for styling in CSS which listed as below 
+    Universal selector ==>  0
+    typed selector ==>   1
+    class selector ==> 10
+    id selector ==> 100
+    inline selector ==> 1000 
+*/
+
+* {
+    color: red;
+}
+
+h3 {
+    color: green;
+}
+
+.heading {
+    color: violet;
+}
+
+#head {
+    color: blue;
+}
+
+.pa1 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    font-variant: small-caps;
+}
+
+.pa2 {
+    text-align: justify;
+    /* left, right, center, justify, justify-all */
+    text-decoration: underline;
+    /*underline, line-through */
+}

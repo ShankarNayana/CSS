@@ -1,0 +1,27 @@
+.firstdiv {
+    background: cadetblue;
+    height: 200px;
+    width: 200px;
+}
+
+.seconddiv {
+    height: 100%;
+    width: 100%;
+    background: url(../waterfall.jpg);
+    background-size: 50% 50%;
+    d background-repeat: no-repeat;
+    background-position: left center
+}
+
+.menu li {
+    background: pink;
+    display: inline;
+}
+
+.para {
+    background: pink;
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    /*hidden, scroll, auto*/
+}

@@ -1,0 +1,19 @@
+.div1 {
+    width: 500px;
+    height: 180px;
+    background: pink;
+    padding: 0 10px;
+    overflow: auto;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.div2 {
+    width: 500px;
+    height: 200px;
+    background: skyblue;
+    overflow: auto;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+}
